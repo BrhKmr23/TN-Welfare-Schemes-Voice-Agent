@@ -12,6 +12,12 @@ A voice-first, agentic AI system that helps users identify and apply for governm
 ✅ **Mock application** - Complete application submission flow  
 ✅ **Transparent demo UI** - All steps visible for evaluation  
 
+## Note 
+I'm using Only 3 schemes are supported as of now 
+1. Pradhan Mantri Matru Vandana Yojana
+2. Pradhan Mantri Kisan Samman Nidhi
+3. Indira Gandhi National Old Age Pension Scheme
+Refer app/schemes.json for more info
 ## Architecture
 
 ```
