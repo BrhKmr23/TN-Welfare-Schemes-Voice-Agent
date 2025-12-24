@@ -18,6 +18,16 @@ A voice-first, agentic AI system that helps users identify and apply for governm
 User Voice → STT (Whisper) → NLU (Gemini) → Memory Update → Planner Decision → Tools → TTS (gTTS) → Voice Response
 ```
 
+### System Architecture Diagram
+
+![Voice Agent Architecture](VoiceAgent.png)
+
+📐 **See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system architecture diagrams:**
+- Component architecture with file mappings
+- Sequence diagrams for interaction flows (`sequence_diagram.puml`)
+- Data flow diagrams
+- Design patterns used
+
 ### Core Components
 
 - **STT** (`app/services/stt.py`) - Whisper-based Tamil speech-to-text
