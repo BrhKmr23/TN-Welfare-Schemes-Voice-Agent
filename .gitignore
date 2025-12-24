@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+voiceagent/
+venv/
+env/
+ENV/
+.venv
+
+# Audio files
+*.wav
+*.mp3
+*.mpeg
+*.mp4
+*.ogg
+*.flac
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Test files
+test_*.py
+*_test.py
+
+# Debug files
+streamlit_debug.py
+QUICK_TEST_GUIDE.md
+
+# Sample/test data
+sample_*.py
+sample_*.wav
+sample_*.json
+
+# PDFs
+*.pdf
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+output.*
+
+# API keys (if any)
+.env
+.env.local
+
+# Model cache (Whisper models)
+.cache/
+models/
+

@@ -1,0 +1,76 @@
+{
+  "schemes": [
+    {
+      "scheme_id": "CEN_IGNOAPS_001",
+      "name": "Indira Gandhi National Old Age Pension Scheme",
+      "name_ta": "இந்திரா காந்தி தேசிய முதியோர் ஓய்வூதிய திட்டம்",
+      "eligibility": {
+        "required_fields": ["age", "bpl_status"],
+        "rules": [
+          {
+            "field": "age",
+            "operator": ">=",
+            "value": 60
+          },
+          {
+            "field": "bpl_status",
+            "operator": "==",
+            "value": true
+          }
+        ],
+        "reason_ta": "வயது 60க்கு மேல் மற்றும் BPL பட்டியலில் உள்ளவர்"
+      },
+      "required_documents": ["aadhaar", "ration_card", "bank_passbook", "age_proof"]
+    },
+    {
+      "scheme_id": "CEN_PM_KISAN_001",
+      "name": "Pradhan Mantri Kisan Samman Nidhi",
+      "name_ta": "பிரதமர் கிசான் சம்மான் நிதி",
+      "eligibility": {
+        "required_fields": ["is_landholding_farmer", "not_excluded_category"],
+        "rules": [
+          {
+            "field": "is_landholding_farmer",
+            "operator": "==",
+            "value": true
+          },
+          {
+            "field": "not_excluded_category",
+            "operator": "==",
+            "value": true
+          }
+        ],
+        "reason_ta": "நிலம் வைத்திருக்கும் விவசாயி மற்றும் விலக்கப்பட்ட வகையில் இல்லாதவர்"
+      },
+      "required_documents": ["aadhaar", "land_document", "bank_passbook"]
+    },
+    {
+      "scheme_id": "CEN_PMMVY_001",
+      "name": "Pradhan Mantri Matru Vandana Yojana",
+      "name_ta": "பிரதமர் மாத்ரு வந்தனா யோஜனா",
+      "eligibility": {
+        "required_fields": ["gender", "is_pregnant_or_lactating", "meets_any_social_category"],
+        "rules": [
+          {
+            "field": "gender",
+            "operator": "==",
+            "value": "female"
+          },
+          {
+            "field": "is_pregnant_or_lactating",
+            "operator": "==",
+            "value": true
+          },
+          {
+            "field": "meets_any_social_category",
+            "operator": "==",
+            "value": true
+          }
+        ],
+        "reason_ta": "பெண் மற்றும் கர்ப்பிணி அல்லது தாய்ப்பால் கொடுப்பவர் மற்றும் சமூக பிரிவில் உள்ளவர்"
+      },
+      "required_documents": ["aadhaar", "maternity_card", "bank_passbook"]
+    }
+  ]
+}
+

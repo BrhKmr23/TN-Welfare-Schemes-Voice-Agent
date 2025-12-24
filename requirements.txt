@@ -1,0 +1,8 @@
+streamlit
+sounddevice
+numpy
+scipy
+openai-whisper
+gtts
+google-genai
+
