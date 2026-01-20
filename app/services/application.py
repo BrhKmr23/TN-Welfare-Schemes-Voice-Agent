@@ -1,4 +1,4 @@
-"""Mock application submission for welfare schemes."""
+"""Mock application submission for welfare scheme s."""
 
 import random
 import string
