@@ -4,7 +4,7 @@
 
 1. **Activate virtual environment:**
 ```bash
-voiceagent\Scripts\activate  # Windows
+voiceagent\Scripts\activate  # Windows 
 ```
 
 2. **Set API key:**
