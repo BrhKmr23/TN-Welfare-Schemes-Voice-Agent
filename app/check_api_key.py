@@ -1,4 +1,4 @@
-"""Quick script to verify GOOGLE_API_KEY is set correctly."""
+"""Quick script to verify GOOGLE_API_KEY is set correctly. """
 
 import os
 import sys
