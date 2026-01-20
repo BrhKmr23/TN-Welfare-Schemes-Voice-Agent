@@ -17,7 +17,7 @@ class PlannerAction(str, Enum):
 
 
 SCHEME_REQUIRED_SLOTS: Dict[str, List[str]] = {
-    # IGNOAPS: Indira Gandhi National Old Age Pension Scheme
+    # IGNOAPS: Indira Gandhi National Old Age Pension Schem e
     "IGNOAPS": ["age", "bpl_status"],
     # PM-KISAN: Pradhan Mantri Kisan Samman Nidhi
     "PM-KISAN": ["is_landholding_farmer", "not_excluded_category"],
