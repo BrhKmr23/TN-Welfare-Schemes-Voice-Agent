@@ -1,4 +1,4 @@
-"""Document readiness checking for welfare schemes."""
+"""Document readiness checking for welfare  schemes."""
 
 import json
 import os
