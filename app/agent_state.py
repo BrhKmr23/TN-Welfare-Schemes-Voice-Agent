@@ -60,7 +60,7 @@ def update_state_from_nlu(state: AgentState, nlu_result: Dict[str, Any]) -> None
             continue
 
         if new_value is None:
-            # Do not overwrite an existing value with null
+            # Do not overwrite an existing value withnull
             continue
 
         current_value = state.slots[slot_name]
