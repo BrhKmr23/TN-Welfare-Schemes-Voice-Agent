@@ -4,7 +4,7 @@ import re
 from typing import Callable, Dict, Optional
 
 from google import genai
-
+ 
 INTENT_SLOT_PROMPT = """
 You are an information extraction system.
 
