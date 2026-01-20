@@ -1,4 +1,4 @@
-"""Question generation for missing slots and contradiction handling.
+"""Question generation for missing slots and contradiction handling .
 
 This module uses LLM ONLY for Tamil phrasing, not for decision-making.
 The planner decides what to ask; this module phrases it in Tamil.
