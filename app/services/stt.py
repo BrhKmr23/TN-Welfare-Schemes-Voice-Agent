@@ -3,7 +3,7 @@ import whisper
 
 from app.config import LANG_TAMIL
 
-
+ 
 @functools.lru_cache(maxsize=1)
 def load_model(model_size: str = "small"):
     """Lazy-load Whisper model once per process."""
