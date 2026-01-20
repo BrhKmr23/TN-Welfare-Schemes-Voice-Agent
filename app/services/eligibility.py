@@ -1,5 +1,5 @@
 """Deterministic eligibility engine for welfare schemes.
-
+ 
 This module evaluates eligibility rules and returns matching schemes.
 No memory, no planner, no voice - pure evaluation only.
 """
