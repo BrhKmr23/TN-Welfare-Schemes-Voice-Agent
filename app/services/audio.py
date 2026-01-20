@@ -40,7 +40,7 @@ def record_until_silence(
     max_record_time: float = MAX_RECORD_TIME,
     status_cb: Optional[StatusFn] = None,
 ) -> Optional[str]:
-    """Stream from mic until silence or timeout and return wav path."""
+    """Stream from mic until silence or timeout and  return wav path."""
     audio_frames = []
     silent_time = 0.0
 
