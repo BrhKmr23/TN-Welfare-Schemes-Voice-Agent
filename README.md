@@ -1,6 +1,6 @@
 # Tamil Welfare Voice Agent - Complete Agentic System
 
-A voice-first, agentic AI system that helps users identify and apply for government welfare schemes in Tamil. The system demonstrates autonomous reasoning, planning, tool usage, memory, and failure handling.
+A voice-first, agentic AI system that helps users identify and apply for government welfare schemes in Tamil. The system demonstrates autonomous reasoning, planning, tool usage, memory, and failure handling. 
 
 ## Video Demo
 ## https://drive.google.com/file/d/1nONcgGdkmQu3SlWV-q6Y4xdea_3LOGAy/view?usp=sharing
