@@ -1,4 +1,4 @@
-streamlit
+streamlit 
 sounddevice
 numpy
 scipy
